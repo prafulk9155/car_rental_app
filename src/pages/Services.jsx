@@ -4,6 +4,7 @@ import React from "react";
 import Image from "next/image"; // Ensure Next.js is installed
 import { CardBody, CardContainer, CardItem } from "../components/ui/3d-card"; // Adjust the path as necessary
 import Link from "next/link"; // Import Link from Next.js
+import './service.css'
 
 export function ServicesComponent() {
   const data = [
@@ -83,7 +84,7 @@ export function ServicesComponent() {
             as="button"
             className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
           >
-            Sign up
+           <a href="user/register"> Expore</a> 
           </CardItem>
         </div>
       </CardBody>

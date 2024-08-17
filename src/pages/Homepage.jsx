@@ -4,6 +4,7 @@ import CarListing from './CarListing'
 import Lists from './Cars/Lists'
 import DisplaySection from './DisplaySection'
 import { ServicesComponent } from './Services'
+import { OffersComponent } from './Offers'
 
 export default function Homepage() {
 const handlelearnMore = ()=>{
@@ -83,6 +84,40 @@ const handlelearnMore = ()=>{
         /> */}
       </div>
 <ServicesComponent />
+
+
+<div className="max-w-2xl mx-auto p-4">
+        <h1 className="relative z-10 text-lg md:text-7xl  bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-600  text-center font-sans font-bold">
+         Accessories
+        </h1>
+        <p></p>
+        </div>
+
+        <div className='container mx-auto p-4 carList'>
+  <div className="flex items-center my-4 flex-row">
+    {/* Left Side: Car Details */}
+    <div className="w-2/3 p-4">
+      <OffersComponent /> 
+    </div>  
+        <div className="w-1/3 p-4" style={{
+          transform: "rotateX(20deg) translateZ(70px)",
+        }}>
+        <h2 className="text-2xl font-bold">Enhance Your Ride</h2>
+        <p><strong>Special Offers on Accessories! </strong></p>
+        <p><strong>GPS Navigation System:</strong> Find your way with ease – only $5/day.</p>
+        <p>Upgrade your rental experience with our exclusive accessories. Whether you're traveling with family, need navigation, or want to stay connected, we've got you covered.</p>
+        <a href="/accessories" className="inline-block bg-teal-600 text-white px-5 py-3 mt-5 rounded-md font-medium shadow-md hover:bg-teal-500 transition">
+    Explore Accessories
+  </a>
+        </div>
+
+    {/* Right Side: Offers Component */}
+    
+  </div>
+</div>
+
+
+
 {/* <DisplaySection /> */}
 </section>
 

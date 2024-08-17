@@ -1,0 +1,12 @@
+.services {
+    overflow-x: auto; /* Allow horizontal scrolling */
+    -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on touch devices */
+}
+
+.services::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, and Opera */
+}
+
+.services {
+    scrollbar-width: none; /* For Firefox */
+}

@@ -1,6 +1,5 @@
-// src/router/index.js
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
 import Homepage from '../pages/Homepage';
 // import AdminDashboard from '../pages/Admin/Dashboard';
 // import ManageCars from '../pages/Admin/ManageCars';
@@ -9,21 +8,33 @@ import Homepage from '../pages/Homepage';
 import Navbar from '../pages/Navbar';
 import Lists from '../pages/Cars/Lists';
 import { ThreeDCardDemo } from '../pages/Cars/CarListCards.jsx';
+import { SignupForm } from '../pages/User/RegisterUser.jsx';
 
 const AppRouter = () => {
+  const location = useLocation();
+  
+  // List of paths where the Navbar should not be shown
+  const pathsWithoutNavbar = ['/user/register'];
+
   return (
-    <Router>
-      <Navbar /> 
+    <>
+      {!pathsWithoutNavbar.includes(location.pathname) && <Navbar />}
       <Routes>
         <Route path="/" element={<Homepage />} />
-        
-         <Route path="car/store" element={<Lists />} />
-         <Route path="car/cards" element={<ThreeDCardDemo />} />
-       {/* <Route path="user/profile" element={<UserProfile />} />
+        <Route path="car/store" element={<Lists />} />
+        <Route path="car/cards" element={<ThreeDCardDemo />} />
+        {/* <Route path="user/profile" element={<UserProfile />} />
         <Route path="user/bookings" element={<UserBookings />} />  */}
+        <Route path="user/register" element={<SignupForm />} />
       </Routes>
-    </Router>
+    </>
   );
 };
 
-export default AppRouter;
+const App = () => (
+  <Router>
+    <AppRouter />
+  </Router>
+);
+
+export default App;

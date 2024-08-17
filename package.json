@@ -10,9 +10,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@radix-ui/react-label": "^2.1.0",
+    "@tabler/icons-react": "^3.12.0",
+    "@tsparticles/react": "^3.0.0",
+    "@tsparticles/slim": "^3.5.0",
     "@types/three": "^0.167.1",
     "axios": "^1.7.4",
     "bootstrap": "^5.3.3",
+    "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "framer-motion": "^11.3.28",
     "gsap": "^3.12.5",
@@ -23,6 +28,7 @@
     "tailwind-merge": "^2.5.2",
     "tailwindcss-animate": "^1.0.7",
     "three": "^0.167.1",
+    "tsparticles": "^3.5.0",
     "vite-plugin-next": "^0.0.1-beta.1",
     "webgi": "^0.0.1"
   },

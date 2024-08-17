@@ -1,0 +1,47 @@
+ [
+      {
+        "id": 1,
+        "name": "Home",
+        "route": "/",
+        "icon": "home-icon.png"
+      },
+      {
+        "id": 2,
+        "name": "Search Cars",
+        "route": "/search",
+        "icon": "search-icon.png"
+      },
+      {
+        "id": 3,
+        "name": "Services",
+        "route": "/services",
+        "icon": "services-icon.png"
+      },
+      {
+        "id": 4,
+        "name": "Offers",
+        "route": "/offers",
+        "icon": "offers-icon.png"
+      },
+      {
+        "id": 5,
+        "name": "Locations",
+        "route": "/locations",
+        "icon": "locations-icon.png"
+      },
+      {
+        "id": 6,
+        "name": "About Us",
+        "route": "/about",
+        "icon": "about-us-icon.png"
+      },
+      {
+        "id": 7,
+        "name": "Contact Us",
+        "route": "/contact",
+        "icon": "contact-us-icon.png"
+      }
+
+    ]
+  
+  
