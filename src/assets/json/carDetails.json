@@ -1,0 +1,27 @@
+[
+    {
+      "make": "Toyota",
+      "model": "Camry",
+      "year": "2021",
+      "price": "$25,000",
+      "description": "The Toyota Camry offers reliability and efficiency.",
+      "image": "src/assets/images/car1.jpg"
+    },
+    {
+      "make": "Honda",
+      "model": "Civic",
+      "year": "2022",
+      "price": "$24,000",
+      "description": "The Honda Civic is compact, efficient, and fun to drive.",
+      "image": "src/assets/images/car2.jpg"
+    },
+    {
+      "make": "Ford",
+      "model": "Mustang",
+      "year": "2020",
+      "price": "$30,000",
+      "description": "The Ford Mustang combines speed, style, and performance.",
+      "image": "src/assets/images/car3.jpg"
+    }
+  ]
+  
