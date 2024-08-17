@@ -1,0 +1,93 @@
+{
+    "services": [
+      {
+        "id": 1,
+        "name": "Car Rental",
+        "description": "Wide range of vehicles available for daily, weekly, or monthly rental.",
+        "features": [
+          "Economy, luxury, and SUV options",
+          "Flexible pickup and drop-off locations",
+          "Competitive pricing"
+        ],
+        "icon": "car-rental.png"
+      },
+      {
+        "id": 2,
+        "name": "Insurance Coverage",
+        "description": "Comprehensive insurance coverage for your rental vehicle.",
+        "features": [
+          "Collision Damage Waiver",
+          "Personal Accident Insurance",
+          "Theft Protection"
+        ],
+        "icon": "insurance.png"
+      },
+      {
+        "id": 3,
+        "name": "GPS Navigation",
+        "description": "Add GPS navigation to your rental for easy driving.",
+        "features": [
+          "Real-time traffic updates",
+          "Voice-guided directions",
+          "Preloaded maps"
+        ],
+        "icon": "gps.png"
+      },
+      {
+        "id": 4,
+        "name": "Child Safety Seat",
+        "description": "Ensure your child's safety with a certified car seat.",
+        "features": [
+          "Infant, toddler, and booster seats available",
+          "Complies with safety regulations",
+          "Easy installation"
+        ],
+        "icon": "child-seat.png"
+      },
+      {
+        "id": 5,
+        "name": "Roadside Assistance",
+        "description": "24/7 roadside assistance for your peace of mind.",
+        "features": [
+          "Towing service",
+          "Flat tire change",
+          "Battery jump-start"
+        ],
+        "icon": "roadside-assistance.png"
+      },
+      {
+        "id": 6,
+        "name": "Additional Driver",
+        "description": "Add an additional driver to your rental agreement.",
+        "features": [
+          "Shared driving responsibilities",
+          "No extra charges for spouse",
+          "Must meet age and license requirements"
+        ],
+        "icon": "additional-driver.png"
+      },
+      {
+        "id": 7,
+        "name": "Fuel Plans",
+        "description": "Choose a fuel plan that suits your needs.",
+        "features": [
+          "Prepaid fuel option",
+          "Full-to-full fuel policy",
+          "Fuel-efficient vehicles available"
+        ],
+        "icon": "fuel-plans.png"
+      },
+      {
+        "id": 8,
+        "name": "Vehicle Delivery",
+        "description": "Get your rental car delivered to your doorstep.",
+        "features": [
+          "Home or office delivery",
+          "Flexible delivery times",
+          "Available in select locations"
+        ],
+        "icon": "vehicle-delivery.png"
+      }
+    ]
+  }
+  

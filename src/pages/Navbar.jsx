@@ -3,6 +3,18 @@ import logo from '../assets/images/logo.png'
 import './Style.css';
 
 export default function Navbar() {
+  const handleServicesList = ()=>{
+    
+    const element =document.querySelector('.services');
+    console.log(element,"element")
+    window.scrollTo({
+        top:element.getBoundingClientRect().top,
+        left:0,
+        behavior:'smooth'
+
+    })
+}
+
   return (
     <header className="bg-white">
   <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
@@ -21,7 +33,7 @@ export default function Navbar() {
               <a className="text-dark-1000 transition hover:text-gray-500/75 " href="/" > Home </a>
             </li>
             <li>
-              <a className="text-dark-1000 transition hover:text-gray-500/75 " href="#" > Services </a>
+              <a className="text-dark-1000 transition hover:text-gray-500/75 " href="#" onClick={handleServicesList} > Services </a>
             </li>
 
             <li>
