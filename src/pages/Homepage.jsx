@@ -6,8 +6,14 @@ import DisplaySection from './DisplaySection'
 import { ServicesComponent } from './Services'
 import { OffersComponent } from './Offers'
 import Feedback from './Feedback'
+import { FlipWords } from "../components/ui/flip-words.jsx";
+import { cn } from "@/lib/utils";
+import { Spotlight } from "../components/ui/spotlight.jsx";
+ 
+
 
 export default function Homepage() {
+  const words = ["Luxury", "Adventure", "Freedom", "Comfort"];
 const handlelearnMore = ()=>{
     
     const element =document.querySelector('.carList');
@@ -24,19 +30,29 @@ const handlelearnMore = ()=>{
 
   return (
     <section className="bg-gray-900 text-white">
-  <div className="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen lg:items-center">
+  <div className="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen lg:items-center ">
+  <Spotlight
+        className="-top-40 left-0 md:left-60 md:-top-20"
+        fill="white"
+      />
     <div className="mx-auto max-w-3xl text-center">
       <h1
         className="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl"
       >
-        Understand User Flow.
 
-        <span className="sm:block"> Increase Conversion. </span>
+Enhance User Experience.
+        <span className="sm:block">Boost Engagement. </span>
       </h1>
 
       <p className="mx-auto mt-4 max-w-xl sm:text-xl/relaxed">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt illo tenetur fuga ducimus
-        numquam ea!
+        {/* Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt illo tenetur fuga ducimus
+        numquam ea! */}
+
+
+Experience the road like never before - 
+        <FlipWords words={words} /> 
+        awaits
+  
       </p>
 
       <div className="mt-8 flex flex-wrap justify-center gap-4">

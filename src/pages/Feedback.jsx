@@ -101,9 +101,9 @@ export const InfiniteMovingCards = ({ items, direction = "left", speed = "fast",
                 src={item.image || "https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"}
                 className="h-20 w-20 rounded-full object-cover mb-4"
               /> 
-              <div className="relative z-20 mt-6 flex flex-row items-center ms-4">
+              <div className="relative z-20 mt-6 flex flex-row items-center ms-4 ">
                 <span className="flex flex-col gap-1">
-                  <span className="text-sm leading-[1.6] text-gray-400 font-normal">
+                  <span className="text-sm leading-[1.6] text-gray-400 font-normal me-4">
                     {item.name}
                   </span>
                   <span className="text-sm leading-[1.6] text-gray-400 font-normal">

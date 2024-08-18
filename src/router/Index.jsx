@@ -9,6 +9,7 @@ import Navbar from '../pages/Navbar';
 import Lists from '../pages/Cars/Lists';
 import { ThreeDCardDemo } from '../pages/Cars/CarListCards.jsx';
 import { SignupForm } from '../pages/User/RegisterUser.jsx';
+import { CarDetailsStickyScroll } from '../pages/Cars/Details.jsx';
 
 const AppRouter = () => {
   const location = useLocation();
@@ -26,6 +27,7 @@ const AppRouter = () => {
         {/* <Route path="user/profile" element={<UserProfile />} />
         <Route path="user/bookings" element={<UserBookings />} />  */}
         <Route path="user/register" element={<SignupForm />} />
+        <Route path="car/details" element={<CarDetailsStickyScroll />} />
       </Routes>
     </>
   );
