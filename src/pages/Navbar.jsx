@@ -24,6 +24,16 @@ export default function Navbar() {
       });
     }
   };
+  const handleAboutList = () => {
+    const element = document.querySelector('.feedback');
+    if (element) {
+      window.scrollTo({
+        top: element.offsetTop,
+        left: 0,
+        behavior: 'smooth',
+      });
+    }
+  };
 
   return (
     <header className="bg-white">
@@ -50,6 +60,9 @@ export default function Navbar() {
     } else if (item.route === '/offers') {
       handleOffersList();
     }
+  else if (item.route === '/about') {
+    handleAboutList();
+  }
   }}
 >
   {item.name}

@@ -1,0 +1,61 @@
+[
+    {
+      "name": "Alice Johnson",
+      "rating": 5,
+      "image": "https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "feedback": "Excellent service! The car was clean and well-maintained. The booking process was smooth and hassle-free. Highly recommend!"
+    },
+    {
+      "name": "Mark Thompson",
+      "rating": 4,
+      "image": "https://images.unsplash.com/photo-1502685104226-ee32379fefbe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=1080",
+      "feedback": "Good experience overall. The car selection was impressive, and the prices were reasonable. Just wish the pickup location was closer."
+    },
+    {
+      "name": "Sophia Martinez",
+      "rating": 5,
+      "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=1080",
+      "feedback": "Loved the customer service! They were very helpful in finding the right car for our trip. The vehicle was in top condition."
+    },
+    {
+      "name": "James Williams",
+      "rating": 3,
+      "image": "https://images.unsplash.com/photo-1502767089025-6572583495f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=1080",
+      "feedback": "The car was decent, but the customer service could use some improvement. Had to wait a bit longer than expected at the pickup location."
+    },
+    {
+      "name": "Olivia Brown",
+      "rating": 4,
+      "image": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "feedback": "Great rental experience! The app is user-friendly, and the rates were competitive. Will definitely use this service again."
+    },
+    {
+      "name": "Michael Davis",
+      "rating": 5,
+      "image": "https://images.unsplash.com/photo-1520813792240-56fc4a3765a7?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "feedback": "Highly recommend! The rental process was quick and easy, and the car was in perfect condition. No hidden fees, which is a huge plus."
+    },
+    {
+      "name": "Emma Wilson",
+      "rating": 4,
+      "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=1080",
+      "feedback": "Good overall experience. The car was clean, and the staff was friendly. The only downside was that the GPS system was outdated."
+    },
+    {
+      "name": "Daniel Harris",
+      "rating": 5,
+      "image": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "feedback": "Fantastic experience! The car was ready on time, and the return process was super easy. Will definitely rent from here again."
+    },
+    {
+      "name": "Isabella Moore",
+      "rating": 3,
+      "image": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "feedback": "The car was okay, but the pickup location was a bit far from the city center. Would appreciate more central locations in the future."
+    },
+    {
+      "name": "William Taylor",
+      "rating": 4,
+      "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=1080"
+      }]
+  
