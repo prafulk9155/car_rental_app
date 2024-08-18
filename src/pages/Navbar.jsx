@@ -25,7 +25,9 @@ export default function Navbar() {
     }
   };
   const handleAboutList = () => {
+    console.log("feedback")
     const element = document.querySelector('.feedback');
+    console(element, "element")
     if (element) {
       window.scrollTo({
         top: element.offsetTop,
