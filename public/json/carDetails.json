@@ -22,6 +22,14 @@
       "price": "$30,000",
       "description": "The Ford Mustang combines speed, style, and performance.",
       "image": "/images/car3.jpg"
+    },
+    {
+      "make": "Honda",
+      "model": "Civic",
+      "year": "2022",
+      "price": "$24,000",
+      "description": "The Honda Civic is compact, efficient, and fun to drive.",
+      "image": "/images/car2.jpg"
     }
   ]
   

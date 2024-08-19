@@ -11,12 +11,14 @@ import { ThreeDCardDemo } from '../pages/Cars/CarListCards.jsx';
 import { CarDetailsStickyScroll } from '../pages/Cars/Details.jsx';
 import { TabsComponent } from '../pages/Admin/Tabs.jsx';
 import RegisterCover from '../common/register/RegisterCover.jsx';
+import SignInComponent from '../common/signin/SigninCard.jsx';
+import { UserHome } from '../pages/User/Home.jsx';
 
 const AppRouter = () => {
   const location = useLocation();
   
   // List of paths where the Navbar should not be shown
-  const pathsWithoutNavbar = ['/admin/tabs'];
+  const pathsWithoutNavbar = ['/admin/tabs','/user/login','/user/register'];
   // const pathsWithoutNavbar = ['/user/register'];
 
   return (
@@ -31,7 +33,11 @@ const AppRouter = () => {
         <Route path="user/register" element={<RegisterCover />} />
         <Route path="car/details" element={<CarDetailsStickyScroll />} />
         <Route path="admin/tabs" element={<TabsComponent />} />
+        <Route path="user/login" element={<SignInComponent />} />
+        <Route path="user/home" element={<UserHome />} />
+
       </Routes>
+      
     </>
   );
 };

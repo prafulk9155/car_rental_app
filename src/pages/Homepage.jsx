@@ -9,10 +9,25 @@ import Feedback from './Feedback'
 import { FlipWords } from "../components/ui/flip-words.jsx";
 import { cn } from "@/lib/utils";
 import { Spotlight } from "../components/ui/spotlight.jsx";
+import { GoogleGeminiEffect } from "../components/ui/google-gemini-effect.jsx";
+import { useScroll, useTransform } from "framer-motion";
  
 
 
 export default function Homepage() {
+  const ref = React.useRef(null);
+  const { scrollYProgress } = useScroll({
+    target: ref,
+    offset: ["start start", "end start"],
+  });
+
+  const pathLengthFirst = useTransform(scrollYProgress, [0, 0.8], [0.2, 1.2]);
+  const pathLengthSecond = useTransform(scrollYProgress, [0, 0.8], [0.15, 1.2]);
+  const pathLengthThird = useTransform(scrollYProgress, [0, 0.8], [0.1, 1.2]);
+  const pathLengthFourth = useTransform(scrollYProgress, [0, 0.8], [0.05, 1.2]);
+  const pathLengthFifth = useTransform(scrollYProgress, [0, 0.8], [0, 1.2]);
+
+  
   const words = ["Luxury", "Adventure", "Freedom", "Comfort"];
 const handlelearnMore = ()=>{
     
@@ -29,7 +44,17 @@ const handlelearnMore = ()=>{
 
 
   return (
+   
     <section className="bg-gray-900 text-white">
+      {/* <GoogleGeminiEffect
+    pathLengths={[
+      pathLengthFirst,
+      pathLengthSecond,
+      pathLengthThird,
+      pathLengthFourth,
+      pathLengthFifth,
+    ]}
+  /> */}
   <div className="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen lg:items-center ">
   <Spotlight
         className="-top-40 left-0 md:left-60 md:-top-20"
@@ -80,7 +105,7 @@ Experience the road like never before -
         <p></p>
         </div>
 
-<CarListing />
+<CarListing />  
 
 <div className="max-w-2xl mx-auto p-4">
         <h1 className="relative z-10 text-lg md:text-7xl  bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-600  text-center font-sans font-bold">
@@ -152,6 +177,7 @@ Experience the road like never before -
 
       <Feedback />  
 </section>
+
 
 
 

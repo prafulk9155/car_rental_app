@@ -1,6 +1,7 @@
 import React from 'react';
 import { ImagesSlider } from "../../components/ui/images-slider.jsx";
 import { motion } from "framer-motion";
+import { Input } from '../../components/ui/input.jsx';
 // import { Button } from "../../components/ui/movibg-border.jsx"
 
 
@@ -34,7 +35,7 @@ export default function RegisterCover() {
                                 The hero section slideshow <br /> nobody asked for
                             </motion.p>
                             <button className="px-4 py-2 backdrop-blur-sm border bg-emerald-300/10 border-emerald-500/20 text-white mx-auto text-center rounded-full relative mt-4">
-                                <span>Join now →</span>
+                              <a href='/'>  <span>Home →</span></a> 
                                 <div className="absolute inset-x-0 h-px -bottom-px bg-gradient-to-r w-3/4 mx-auto from-transparent via-emerald-500 to-transparent" />
                             </button>
                         </motion.div>
@@ -62,7 +63,8 @@ export default function RegisterCover() {
                                     First Name
                                 </label>
 
-                                <input
+                                 <Input
+
                                     type="text"
                                     id="FirstName"
                                     name="first_name"
@@ -75,7 +77,7 @@ export default function RegisterCover() {
                                     Last Name
                                 </label>
 
-                                <input
+                                <Input
                                     type="text"
                                     id="LastName"
                                     name="last_name"
@@ -86,7 +88,7 @@ export default function RegisterCover() {
                             <div className="col-span-6">
                                 <label htmlFor="Email" className="block text-sm font-medium text-gray-700"> Email </label>
 
-                                <input
+                                <Input
                                     type="email"
                                     id="Email"
                                     name="email"
@@ -97,7 +99,8 @@ export default function RegisterCover() {
                             <div className="col-span-6 sm:col-span-3">
                                 <label htmlFor="Password" className="block text-sm font-medium text-gray-700"> Password </label>
 
-                                <input
+                                       <Input
+
                                     type="password"
                                     id="Password"
                                     name="password"
@@ -110,7 +113,7 @@ export default function RegisterCover() {
                                     Password Confirmation
                                 </label>
 
-                                <input
+                                <Input
                                     type="password"
                                     id="PasswordConfirmation"
                                     name="password_confirmation"
@@ -120,7 +123,7 @@ export default function RegisterCover() {
 
                             <div className="col-span-6">
                                 <label htmlFor="MarketingAccept" className="flex gap-4">
-                                    <input
+                                    <Input
                                         type="checkbox"
                                         id="MarketingAccept"
                                         name="marketing_accept"
@@ -151,7 +154,7 @@ export default function RegisterCover() {
 
                                 <p className="mt-4 text-sm text-gray-500 sm:mt-0">
                                     Already have an account?
-                                    <a href="#" className="text-gray-700 underline">Log in</a>.
+                                    <a href="login" className="text-gray-700 underline ms-5">Log in</a>.
                                 </p>
                             </div>
                         </form>
