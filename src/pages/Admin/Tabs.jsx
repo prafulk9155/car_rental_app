@@ -2,14 +2,14 @@
 
 import Image from "next/image";
 import { useEffect, useState } from "react";
-import { Tabs } from "../../components/ui/tabs.jsx"; // Ensure this path is correct
-import tabsData from '../../../public/json/tabs.json'; // Adjust path according to your structure
+import { Tabs } from "../../components/ui/tabs.jsx";
+import tabsData from '../../../public/json/tabs.json'; 
 import { CarDetailsStickyScroll } from "../Cars/Details.jsx";
 import Feedback from "../User/Feedback.jsx";
 
 
 export function TabsComponent() {
-  const [tabs, setTabs] = useState([]); // Initializing with an empty array
+  const [tabs, setTabs] = useState([]);
 
   useEffect(() => {
     // Check if tabsData is valid
@@ -25,9 +25,9 @@ export function TabsComponent() {
       }));
       setTabs(formattedTabs);
     }
-  }, []); // Dependencies are empty for a single load on mount
+  }, []); 
 
-  // Check if tabs has elements before rendering Tabs component
+
   if (!tabs.length) {
     return <div>Loading tabs...</div>; // Optionally, you can show a loading message or spinner
   }
