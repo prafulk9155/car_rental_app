@@ -11,6 +11,8 @@ import { cn } from "@/lib/utils";
 import { Spotlight } from "../components/ui/spotlight.jsx";
 import { GoogleGeminiEffect } from "../components/ui/google-gemini-effect.jsx";
 import { useScroll, useTransform } from "framer-motion";
+import { apiGet, apiPost } from '../services/api.service.js';
+import { useEffect } from 'react'
  
 
 
@@ -20,6 +22,20 @@ export default function Homepage() {
     target: ref,
     offset: ["start start", "end start"],
   });
+
+  useEffect(() => {
+    const loadCars = async () => {
+        try {
+            const carData = await apiGet('/'); 
+            setCars(carData);
+        } catch (err) {
+            setError(err);
+        }
+    };
+
+    // loadCars();
+}, []);
+
 
   const pathLengthFirst = useTransform(scrollYProgress, [0, 0.8], [0.2, 1.2]);
   const pathLengthSecond = useTransform(scrollYProgress, [0, 0.8], [0.15, 1.2]);
@@ -160,7 +176,7 @@ Experience the road like never before -
 
 
 
-{/* <DisplaySection /> */}
+<DisplaySection />
 
 <div className="max-w-2xl mx-auto p-4 feedback">
         <h1 className="relative z-10 text-lg md:text-7xl  bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-600  text-center font-sans font-bold">
