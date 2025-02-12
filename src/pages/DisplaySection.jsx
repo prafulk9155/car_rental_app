@@ -4,7 +4,7 @@ import WebViewer from './WebViewer'
 export default function DisplaySection() {
   return (
     <article className="rounded-xl bg-white p-4 ring ring-indigo-50 sm:p-6 lg:p-8">
-  <div className="flex items-start sm:gap-8">
+  {/* <div className="flex items-start sm:gap-8">
     <div
       className="hidden sm:grid sm:size-20 sm:shrink-0 sm:place-content-center sm:rounded-full sm:border-2 sm:border-indigo-500"
       aria-hidden="true"
@@ -30,9 +30,7 @@ export default function DisplaySection() {
       </h3>
 
       <p className="mt-1 text-sm text-gray-700">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam nulla amet voluptatum sit
-        rerum, atque, quo culpa ut necessitatibus eius suscipit eum accusamus, aperiam voluptas
-        exercitationem facere aliquid fuga. Sint.
+        This a sample for 3D model site
       </p>
 
       <div className="mt-4 sm:flex sm:items-center sm:gap-2">
@@ -64,7 +62,7 @@ export default function DisplaySection() {
         </p>
       </div>
     </div>
-  </div>
+  </div> */}
   <WebViewer />
 </article>
   )

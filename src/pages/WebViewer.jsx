@@ -45,7 +45,7 @@ export default function WebViewer() {
 
     // Add plugins individually.
     await viewer.addPlugin(GBufferPlugin);
-    await viewer.addPlugin(new ProgressivePlugin(32));
+    await viewer.addPlugin(new ProgressivePlugin(100));
     await viewer.addPlugin(new TonemapPlugin(!viewer.useRgbm));
     await viewer.addPlugin(GammaCorrectionPlugin);
     await viewer.addPlugin(SSRPlugin);
@@ -73,7 +73,7 @@ export default function WebViewer() {
 
   return (
     <div id="webgi-canvas-container">
-      <canvas id="webgi-canvas" ref={canvasRef} />
+      <canvas id="webgi-canvas" ref={canvasRef} height="300" width= "1450" />
     </div>
   );
 }
