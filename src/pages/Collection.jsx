@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import carData from '../../public/json/carDetails.json'; 
+import carData from '/json/carDetails.json'; 
 import { LampContainer } from "../components/ui/lamp.jsx"
 import { motion } from "framer-motion";
 

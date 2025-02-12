@@ -2,7 +2,7 @@
 
 import { cn } from "@/lib/utils"; // Your utility classnames function
 import React, { useEffect, useState } from "react";
-import data from '../../public/json/feedback.json'; // Ensure this path is correct
+import data from '/json/feedback.json'; // Ensure this path is correct
 
 const RatingStars = ({ rating }) => {
   return (

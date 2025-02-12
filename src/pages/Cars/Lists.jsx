@@ -1,5 +1,5 @@
 import React from 'react'
-import data from '../../../public/json/carDetails.json'
+import data from '/json/carDetails.json'
 
 export default function Lists() {
   return (

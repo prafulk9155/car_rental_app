@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import { Tabs } from "../../components/ui/tabs.jsx";
-import tabsData from '../../../public/json/tabs.json'; 
+import tabsData from '/json/tabs.json'; 
 import { CarDetailsStickyScroll } from "../Cars/Details.jsx";
 import Feedback from "../User/Feedback.jsx";
 

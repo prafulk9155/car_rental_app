@@ -1,5 +1,5 @@
 import React from 'react';
-import data from '../../../public/json/feedback.json'; // Ensure this path is correct
+import data from '/json/feedback.json'; // Ensure this path is correct
 import '../feedback.css'
 const RatingStars = ({ rating }) => {
   return (
