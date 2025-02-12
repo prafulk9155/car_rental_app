@@ -24,3 +24,7 @@ angular
 *.njsproj
 *.sln
 *.sw?
+.vercel
+
+
+.vercel

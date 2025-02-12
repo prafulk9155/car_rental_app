@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import WebViewer from './WebViewer'
 
 export default function DisplaySection() {
