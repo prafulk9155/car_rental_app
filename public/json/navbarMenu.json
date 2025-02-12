@@ -7,20 +7,26 @@
       },
       {
         "id": 2,
-        "name": "Search Cars",
-        "route": "/search",
+        "name": "Car Store",
+        "route": "/car/store",
+        "icon": "search-icon.png"
+      },
+      {
+        "id": 2,
+        "name": "Card",
+        "route": "/car/cards",
         "icon": "search-icon.png"
       },
       {
         "id": 3,
-        "name": "Services",
-        "route": "/services",
+        "name": "Admin",
+        "route": "/admin/tabs",
         "icon": "services-icon.png"
       },
       {
         "id": 4,
-        "name": "Offers",
-        "route": "/offers",
+        "name": "Details",
+        "route": "/car/details",
         "icon": "offers-icon.png"
       },
       {
@@ -32,7 +38,7 @@
       {
         "id": 6,
         "name": "About Us",
-        "route": "/about",
+        "route": "/user/home",
         "icon": "about-us-icon.png"
       },
       {

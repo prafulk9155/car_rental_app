@@ -1,7 +1,7 @@
 import React from "react";
 import { Compare } from "@/components/ui/compare";
-import image1 from '../../public/images/access_img_2.png'
-import image2 from '../../public/images/access_img_1.png'
+import image1 from '/images/access_img_2.png'
+import image2 from '/images/access_img_1.png'
 
 export function OffersComponent() {
   return (

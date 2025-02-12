@@ -3,7 +3,7 @@ import carData from '../../public/json/carDetails.json';
 import { LampContainer } from "../components/ui/lamp.jsx"
 import { motion } from "framer-motion";
 
-export default function Collection() {
+export default  Collection =()=> {
   const [cars, setCars] = useState([]);
 
   useEffect(() => {
@@ -13,7 +13,7 @@ export default function Collection() {
 
   return (
     <section>
-         {/* <LampContainer>
+         <LampContainer>
       <motion.h1
         initial={{ opacity: 0.5, y: 100 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -26,7 +26,7 @@ export default function Collection() {
       >
         Build lamps <br /> the right way
       </motion.h1>
-    </LampContainer> */}
+    </LampContainer>
       <div className=" max-w-screen-xl   sm:px-6 sm:py-12 lg:px-8">
         <header className="text-center">
           <h2 className="text-xl font-bold text-gray-900 sm:text-3xl">New Collection</h2>

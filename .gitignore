@@ -25,6 +25,7 @@ angular
 *.sln
 *.sw?
 .vercel
+.next
 
 
 .vercel

@@ -13,6 +13,7 @@ import { TabsComponent } from '../pages/Admin/Tabs.jsx';
 import RegisterCover from '../common/register/RegisterCover.jsx';
 import SignInComponent from '../common/signin/SigninCard.jsx';
 import { UserHome } from '../pages/User/Home.jsx';
+import Collection from '../pages/Collection.jsx';
 
 const AppRouter = () => {
   const location = useLocation();
@@ -28,14 +29,14 @@ const AppRouter = () => {
         <Route path="/" element={<Homepage />} />
         <Route path="car/store" element={<Lists />} />
         <Route path="car/cards" element={<ThreeDCardDemo />} />
-        {/* <Route path="user/profile" element={<UserProfile />} />
-        <Route path="user/bookings" element={<UserBookings />} />  */}
+        <Route path="user/profile" element={<UserProfile />} />
+        <Route path="user/bookings" element={<UserBookings />} /> 
         <Route path="user/register" element={<RegisterCover />} />
         <Route path="car/details" element={<CarDetailsStickyScroll />} />
         <Route path="admin/tabs" element={<TabsComponent />} />
         <Route path="user/login" element={<SignInComponent />} />
         <Route path="user/home" element={<UserHome />} />
-
+        <Route path="collection" element={<Collection />} />
       </Routes>
       
     </>
