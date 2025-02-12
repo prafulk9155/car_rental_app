@@ -29,8 +29,8 @@ const AppRouter = () => {
         <Route path="/" element={<Homepage />} />
         <Route path="car/store" element={<Lists />} />
         <Route path="car/cards" element={<ThreeDCardDemo />} />
-        <Route path="user/profile" element={<UserProfile />} />
-        <Route path="user/bookings" element={<UserBookings />} /> 
+        {/* <Route path="user/profile" element={<UserProfile />} /> */}
+        {/* <Route path="user/bookings" element={<UserBookings />} />  */}
         <Route path="user/register" element={<RegisterCover />} />
         <Route path="car/details" element={<CarDetailsStickyScroll />} />
         <Route path="admin/tabs" element={<TabsComponent />} />
