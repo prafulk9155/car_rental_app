@@ -13,7 +13,7 @@ import { TabsComponent } from '../pages/Admin/Tabs.jsx';
 import RegisterCover from '../common/register/RegisterCover.jsx';
 import SignInComponent from '../common/signin/SigninCard.jsx';
 import { UserHome } from '../pages/User/Home.jsx';
-import Collection from '../pages/Collection.jsx';
+// import Collection from '../pages/Collection.jsx';
 
 const AppRouter = () => {
   const location = useLocation();
@@ -36,7 +36,7 @@ const AppRouter = () => {
         <Route path="admin/tabs" element={<TabsComponent />} />
         <Route path="user/login" element={<SignInComponent />} />
         <Route path="user/home" element={<UserHome />} />
-        <Route path="collection" element={<Collection />} />
+        {/* <Route path="collection" element={<Collection />} /> */}
       </Routes>
       
     </>
