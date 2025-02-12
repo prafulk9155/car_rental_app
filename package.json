@@ -8,7 +8,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "homepage": "/car-rental/"
+    "homepage": "/car-rental/",
+    "start":"vite"
   },
   "dependencies": {
     "@capacitor/android": "^6.1.2",
