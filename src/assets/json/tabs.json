@@ -1,0 +1,28 @@
+[
+    {
+      "title": "Product",
+      "value": "product",
+      "content": "Product Tab "
+    },
+    {
+      "title": "Services",
+      "value": "services",
+      "content": "Services Tab "
+    },
+    {
+      "title": "Playground",
+      "value": "playground",
+      "content": "Playground Tab "
+    },
+    {
+      "title": "Content",
+      "value": "content",
+      "content": "Content Tab "
+    },
+    {
+      "title": "Random",
+      "value": "random",
+      "content": "Random Tab "
+    }
+  ]
+  

@@ -1,8 +1,8 @@
 "use client";
 
-import { cn } from "@/lib/utils"; // Your utility classnames function
+import { cn } from "@/lib/utils"; 
 import React, { useEffect, useState } from "react";
-import data from '/json/feedback.json'; // Ensure this path is correct
+import data from '../../public/json/feedback.json'; 
 
 const RatingStars = ({ rating }) => {
   return (

@@ -1,6 +1,6 @@
 // src/components/CarListing.jsx
 import React, { useEffect, useState } from "react";
-import carData from '../assets/json/carDetails.json'; // Update the path to your JSON file
+import carData from '../../public/json/carDetails.json'; // Update the path to your JSON file
 
 const CarListing = () => {
     const [cars, setCars] = useState([]);

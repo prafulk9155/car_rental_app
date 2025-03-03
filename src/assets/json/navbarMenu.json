@@ -1,0 +1,53 @@
+ [
+      {
+        "id": 1,
+        "name": "Home",
+        "route": "/",
+        "icon": "home-icon.png"
+      },
+      {
+        "id": 2,
+        "name": "Car Store",
+        "route": "/car/store",
+        "icon": "search-icon.png"
+      },
+      {
+        "id": 2,
+        "name": "Card",
+        "route": "/car/cards",
+        "icon": "search-icon.png"
+      },
+      {
+        "id": 3,
+        "name": "Admin",
+        "route": "/admin/tabs",
+        "icon": "services-icon.png"
+      },
+      {
+        "id": 4,
+        "name": "Details",
+        "route": "/car/details",
+        "icon": "offers-icon.png"
+      },
+      {
+        "id": 5,
+        "name": "Locations",
+        "route": "/locations",
+        "icon": "locations-icon.png"
+      },
+      {
+        "id": 6,
+        "name": "About Us",
+        "route": "/user/home",
+        "icon": "about-us-icon.png"
+      },
+      {
+        "id": 7,
+        "name": "Contact Us",
+        "route": "/contact",
+        "icon": "contact-us-icon.png"
+      }
+
+    ]
+  
+  

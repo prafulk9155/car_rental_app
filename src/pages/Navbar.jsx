@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from '../assets/images/logo.png';
 import './Style.css';
-import menuData from '/json/navbarMenu.json';
+import menuData from '../../public/json/navbarMenu.json';
 
 export default function Navbar() {
   const handleServicesList = () => {
